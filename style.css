@@ -1,7 +1,8 @@
 body {
-    background-color: #1ad1ff;
+    background-color: #67b4ff;
     padding:0;
     margin:0;
+    overflow: hidden;
 
 }
 
@@ -17,13 +18,42 @@ button{
     float: right;
     margin-top: 15px;
     margin-right: 15px;
+    background-color: #0080ff;
+    height: 30px;
+    color: white;
 }
 
-.form-style{
+.wrapper{
+    /*  background-color: thistle;*/
+    width: 80%;
+    margin: 5%;
+    padding: 10px;
+    
+}
+form{
+    background-color: white;
+    border-radius: 5px;
+    width: 35%;
     margin: auto;
-    width: 30%;
-    padding-top:10%;
-    background-color: thistle;
-   
-
+    margin-top: 5%;
+    padding: 50px;
+     
 }
+
+input{
+    width:100%;
+    height: 30px; 
+}
+#submit{
+    width: 100%;
+    height: 30px;
+    background-color: #0080ff ;
+}
+p{
+    display: inline-block;
+    margin: 20px;
+    margin-top: 20px;
+    
+}
+
+
